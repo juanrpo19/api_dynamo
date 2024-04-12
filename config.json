@@ -1,0 +1,12 @@
+{
+    "preaprobados_consumo_combos_table" : "consumo-combos" ,
+	"preaprobados_comercial_table" : "comercial_portal" ,
+	"tdc_tasas_portal_table" : "tdc_tasas_portal" ,
+
+    "region" : "us-east-1",
+    "write_capacity_units" : 5,
+    "read_capacity_units" : 5,
+    "tracklogs": false,
+    "rutaLog": "logs/",
+    "logName": "vrgo-api-alternativas-portal-cobranza.log"
+}

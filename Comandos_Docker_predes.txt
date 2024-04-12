@@ -1,0 +1,11 @@
+****** DOCKER **********************************
+
+docker ps :  mirar los procesos corriendo
+docker build -t vrgo-api-alternativas-portal-cobranza apis-productizar/vrgo-api-alternativas-portal-cobranza/.   : recordar cambiar el dockerfileP
+docker images : para ver la librería de imagenes construidas
+docker stop vrgo-api-alternativas-portal-cobranza
+docker rm vrgo-api-alternativas-portal-cobranza
+docker run -d -p 8012:8000 --name vrgo-api-alternativas-portal-cobranza vrgo-api-alternativas-portal-cobranza
+docker logs vrgo-api-alternativas-portal-cobranza : ver lo último
+
+************************************************

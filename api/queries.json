@@ -1,0 +1,71 @@
+
+//PreaprobadosConsumoCombos
+//GRAPHQL
+query ConsultarPreaprobadosConsumoCombos($clave:String, $claveOrdenamiento:String, $limit:Int , $ascendente:Boolean , $lastEvaluatedKey:LastEvaluatedKeyPreaprobadosConsumoCombos) {
+    preaprobadosConsumoCombos(clave:$clave, claveOrdenamiento:$claveOrdenamiento, limit:$limit , ascendente:$ascendente , lastEvaluatedKey:$lastEvaluatedKey){
+    totalCount,
+    preaprobadosconsumocombos{
+        clave , claveOrdenamiento , tipoid , numDoc , nombreCliente , segmento , ejecutivo , tel1 , tel2 , tel3 , tel4 , tel5 , tel6 , tel7 , tel8 , tel9 , tel10 , ciudadContacto , cupoAsigandoCrediagil , numPrestamo , valorDesembolso , tipoPlan , producto , plazoActual , frecuenciaPago , tasaNamv , tipoDeTasa , fechaDesembolso , fechaVencimiento , nuevaFechaVencimiento , saldoNeto , cuotaRegular , cuotaIncluyeSeguro , cuotaFijaK , tipoDeCuota , interesesPendientes , saldoSgVida , fechaProxPago , nuevaFechaProxPago , fechaUltimoPago , numCuotasFaltantes , plazoMin , plazoMax , ampliacionPlazoMeses , maxPeriodoDeGraciaOProrroga , mesesProrrogaElegidos , nuevoPlazoTotalEnMeses , mesPagoFng , montoFng , mesPagoComisionMipyme , montoComisionMipyme , frecMipyme , comisionMipymeFng , cuotaAnterior , vlrCuotaActual , nuevaCuotaSinOtrosConceptos , nuevaCuotaACapital , nuevaCuotaTotal , disminucionDeCuota , nuevaCuotaSistema , marcaRiesgos , genero , fechaNacimiento , email1 , email2 , nuevaG , region , codigoSegVida , extraprimaSeguro , factorSeguro , seguroDesempleo , prob , televentasHabeasData , mailHabeasData , smsHabeasData , departamento , aliado , base , opcion1 , opcion2 , prioridadCreditos , fechaProyproxPago , redescuento , conceptoDistribucion1 , conectorDistribucion1 , conceptoDistribucion2 , conectorDistribucion2 , conceptoDistribucion3 , conectorDistribucion3 , conceptoDistribucion4 , conectorDistribucion4 , conceptoDistribucion5 , conectorDistribucion5 , conceptoDistribucion6 , conectorDistribucion6 , conceptoDistribucion7 , conectorDistribucion7 , conceptoDistribucion8 , conectorDistribucion8 , conceptoDistribucion9 , estado , baseAliados , nombre , grupo , perfil , codAbogado , codAbogadoPara , diasMora , nombrePara , grupoPara , perfilPara , cobroJuridico , fuente , cntDiasMora , consdocdeu , nuevaMarca , venezolanos , canalRpcSemana , exclusionRpc , exclusionLc , novedad , alternativaAplicadaAgr , marcaAgrupadaRgo , productoAgrupadoOrigen , fAplicacion , bpo , exclusionAlt , activo , year , month , day
+        }
+    }
+}
+
+//Variables
+{"clave": "1#20f123cb641265b58fab2fd417e812", "claveOrdenamiento": "16781043120"}
+
+//Json
+{
+    "query": "query ConsultarPreaprobadosConsumoCombos($clave:String, $claveOrdenamiento:String, $limit:Int , $ascendente:Boolean , $lastEvaluatedKey:LastEvaluatedKeyPreaprobadosConsumoCombos) {preaprobadosConsumoCombos(clave:$clave, claveOrdenamiento:$claveOrdenamiento, limit:$limit , ascendente:$ascendente , lastEvaluatedKey:$lastEvaluatedKey){totalCount,preaprobadosconsumocombos{clave , claveOrdenamiento , tipoid , id , nombreCliente , segmento , ejecutivo , tel1 , tel2 , tel3 , tel4 , tel5 , tel6 , tel7 , tel8 , tel9 , tel10 , ciudadContacto , cupoAsigandoCrediagil , numPrestamo , valorDesembolso , tipoPlan , producto , plazoActual , frecuenciaPago , tasaNamv , tipoDeTasa , fechaDesembolso , fechaVencimiento , nuevaFechaVencimiento , saldoNeto , cuotaRegular , cuotaIncluyeSeguro , cuotaFijaK , tipoDeCuota , interesesPendientes , saldoSgVida , fechaProxPago , nuevaFechaProxPago , fechaUltimoPago , numCuotasFaltantes , plazoMin , plazoMax , ampliacionPlazoMeses , maxPeriodoDeGraciaOProrroga , mesesProrrogaElegidos , nuevoPlazoTotalEnMeses , mesPagoFng , montoFng , mesPagoComisionMipyme , montoComisionMipyme , frecMipyme , comisionMipymeFng , cuotaAnterior , vlrCuotaActual , nuevaCuotaSinOtrosConceptos , nuevaCuotaACapital , nuevaCuotaTotal , disminucionDeCuota , nuevaCuotaSistema , marcaRiesgos , genero , fechaNacimiento , email1 , email2 , nuevaG , region , codigoSegVida , extraprimaSeguro , factorSeguro , seguroDesempleo , prob , televentasHabeasData , mailHabeasData , smsHabeasData , departamento , aliado , base , opcion1 , opcion2 , prioridadCreditos , fechaProyproxPago , redescuento , conceptoDistribucion1 , conectorDistribucion1 , conceptoDistribucion2 , conectorDistribucion2 , conceptoDistribucion3 , conectorDistribucion3 , conceptoDistribucion4 , conectorDistribucion4 , conceptoDistribucion5 , conectorDistribucion5 , conceptoDistribucion6 , conectorDistribucion6 , conceptoDistribucion7 , conectorDistribucion7 , conceptoDistribucion8 , conectorDistribucion8 , conceptoDistribucion9 , estado , baseAliados , nombre , grupo , perfil , codAbogado , codAbogadoPara , diasMora , nombrePara , grupoPara , perfilPara , cobroJuridico , fuente , cntDiasMora , consdocdeu , nuevaMarca , venezolanos , canalRpcSemana , exclusionRpc , exclusionLc , novedad , alternativaAplicadaAgr , marcaAgrupadaRgo , productoAgrupadoOrigen , fAplicacion , bpo , exclusionAlt , activo , year , month , day}}}",
+    "variables": {
+        "clave": "1#20f123cb641265b58fab2fd417e812",
+        "claveOrdenamiento": "16781043120"
+    }
+}
+
+
+
+//PreaprobadosComercial
+//GRAPHQL
+query ConsultarPreaprobadosComercial($clave:String, $claveOrdenamiento:String, $limit:Int , $ascendente:Boolean , $lastEvaluatedKey:LastEvaluatedKeyPreaprobadosComercial) {
+    preaprobadosComercial(clave:$clave, claveOrdenamiento:$claveOrdenamiento, limit:$limit , ascendente:$ascendente , lastEvaluatedKey:$lastEvaluatedKey){
+    totalCount,
+    preaprobadoscomercial{
+        clave , claveOrdenamiento , corte , tipoId , nitCliente , razonSocial , segmento , nroOperacion , prorroga , plazomaxProrroga , amplCons , plazominAmplCons , plazomaxAmplCons , amplPgCons , plazominAmplPgCons , plazomaxAmplPgCons , amplMod , plazominAmplMod , plazomaxAmplMod , amplPgMod , plazominAmplPgMod , plazomaxAmplPgMod , amplReest , plazominAmplReest , plazomaxAmplReest , amplPgReest , plazominAmplPgReest , plazomaxAmplPgReest , bin , descripcionBin , cupoMinimo , idPreaprobado , mpioExpCcCliente , dptoExpCcCliente , subsegmento , saldoObligacion , plan , avales , descTipoGtia , claveLarga , claveCorta , asignacion , controlPr , tipoPreaprobado , nivelAlerta , afectacion , lineaRedescuento , ofGte , califeActual , ciiucenie , saldoCliente , calife , califintmodred , califiReal , maxMoraCli , endeudamiento , marca026 , altmora , apl , fdesem , vdesem , segCuotaFut , fechaVencDef , fProxPago , plazo , gerenciado , pcons , regcons , sector , subsector , producto , fondo , obl341 , tipoDeTasa , tasa , tasaAnterior , idRepLegal , mpioExpCcRepLegal , dptoExpCcRepLegal , nombreCliRep , marcaPreaprobado , marcaGarantia , tipoDeAmortizacion , tipoCuota , tipoTasa , tamanoEmpresa , nombreGarantia , tipoMoneda , bajoMonto , descTipoFondo , proximoPago , planDesembolso , paqueteConsolidacion , procesoAgilConsolidacionPasivos , cuenta , saldoCapital , cuotasFaltantes , periodoDeGraciaRestante , spread , periodicidadPago , modalidad , interesesAcumulados , otrosConceptosAcumulados , tasaSeguroAnual , codBaseSegVida , valorDesembolsoParaSegVida , mesPagoFng , porcentComisionFng , mesPagoFag , porcentComisionFag , saldoTotalVencido , saldoCapitalVencido , saldoInteresCteVencido , saldoInteresMoraCausados , saldoIntMoraEnSuspCausac , saldoSegurosVencidos , saldoOtrosSeguros , comisionExp , ivaExp , vlrObligacion , pagoMinCons , consdocdeu , nombreUsuarioDuenoTarea , codAbogado , nombreAbogado , grupoAbogado , perfilAbogado , organizacion , pagaresAConsolidar , fecha1Pror , fecha2Pror , fecha3Pror , dtfTa , ibrNamv , ibrNatv , ibrNasv , ipcVm , ipcVac , ipcVa , idEmbargo , descripcionGestion , codigoAprobador , fGestionCobdigit , activo , year , month , day
+        }
+    }
+}
+
+//Variables
+{"clave": "3#20f0e76e9d87260311af2aed333713", "claveOrdenamiento": "5303730296619955#0"}
+
+//Json
+{
+    "query": "query ConsultarPreaprobadosComercial($clave:String, $claveOrdenamiento:String, $limit:Int , $ascendente:Boolean , $lastEvaluatedKey:LastEvaluatedKeyPreaprobadosComercial) {preaprobadosComercial(clave:$clave, claveOrdenamiento:$claveOrdenamiento, limit:$limit , ascendente:$ascendente , lastEvaluatedKey:$lastEvaluatedKey){totalCount,preaprobadoscomercial{clave , claveOrdenamiento , corte , tipoId , nitCliente , razonSocial , segmento , nroOperacion , prorroga , plazomaxProrroga , amplCons , plazominAmplCons , plazomaxAmplCons , amplPgCons , plazominAmplPgCons , plazomaxAmplPgCons , amplMod , plazominAmplMod , plazomaxAmplMod , amplPgMod , plazominAmplPgMod , plazomaxAmplPgMod , amplReest , plazominAmplReest , plazomaxAmplReest , amplPgReest , plazominAmplPgReest , plazomaxAmplPgReest , bin , descripcionBin , cupoMinimo , idPreaprobado , mpioExpCcCliente , dptoExpCcCliente , subsegmento , saldoObligacion , plan , avales , descTipoGtia , claveLarga , claveCorta , asignacion , controlPr , tipoPreaprobado , nivelAlerta , afectacion , lineaRedescuento , ofGte , califeActual , ciiucenie , saldoCliente , calife , califintmodred , califiReal , maxMoraCli , endeudamiento , marca026 , altmora , apl , fdesem , vdesem , segCuotaFut , fechaVencDef , fProxPago , plazo , gerenciado , pcons , regcons , sector , subsector , producto , fondo , obl341 , tipoDeTasa , tasa , tasaAnterior , idRepLegal , mpioExpCcRepLegal , dptoExpCcRepLegal , nombreCliRep , marcaPreaprobado , marcaGarantia , tipoDeAmortizacion , tipoCuota , tipoTasa , tamanoEmpresa , nombreGarantia , tipoMoneda , bajoMonto , descTipoFondo , proximoPago , planDesembolso , paqueteConsolidacion , procesoAgilConsolidacionPasivos , cuenta , saldoCapital , cuotasFaltantes , periodoDeGraciaRestante , spread , periodicidadPago , modalidad , interesesAcumulados , otrosConceptosAcumulados , tasaSeguroAnual , codBaseSegVida , valorDesembolsoParaSegVida , mesPagoFng , porcentComisionFng , mesPagoFag , porcentComisionFag , saldoTotalVencido , saldoCapitalVencido , saldoInteresCteVencido , saldoInteresMoraCausados , saldoIntMoraEnSuspCausac , saldoSegurosVencidos , saldoOtrosSeguros , comisionExp , ivaExp , vlrObligacion , pagoMinCons , consdocdeu , nombreUsuarioDuenoTarea , codAbogado , nombreAbogado , grupoAbogado , perfilAbogado , organizacion , pagaresAConsolidar , fecha1Pror , fecha2Pror , fecha3Pror , dtfTa , ibrNamv , ibrNatv , ibrNasv , ipcVm , ipcVac , ipcVa , idEmbargo , descripcionGestion , codigoAprobador , fGestionCobdigit , activo , year , month , day}}}",
+    "variables": {
+        "clave": "3#20f0e76e9d87260311af2aed333713",
+        "claveOrdenamiento": "5303730296619955#0"
+    }
+}
+
+//TdcTasasPortal
+//GRAPHQL
+query ConsultarTdcTasasPortal($clave:String, $claveOrdenamiento:String, $limit:Int , $ascendente:Boolean , $lastEvaluatedKey:LastEvaluatedKeyTdcTasasPortal) {
+    tdcTasasPortal(clave:$clave, claveOrdenamiento:$claveOrdenamiento, limit:$limit , ascendente:$ascendente , lastEvaluatedKey:$lastEvaluatedKey){
+    totalCount,
+    tdctasasportal{
+        clave , claveOrdenamiento , ingestionYear , ingestionMonth , ingestionDay , costumerNumber , tipoIdCliente , idCliente , nombreCliente , tipoIdAmparador , idAmparador , nombreAmparador , organizacion , cuenta , estadoCuenta , blockCode1 , blockCode2 , diasMora , tarjeta , bin , ultimos4Numeros , franquicia , estadoTarjeta , blockCodeTarjeta , ciclo , fechaUltimoCorte , fechaLimiteDePago , fechaProximoCorte , diasProximoCorte , transacionesSuspendidas , montoTransacionesSuspendidas , deudaTotal , comisionesDeudaTotal , interesesDeudaTotal , sumaComisionesInteresesDeudaTotal , capitalDeudaTotal , tasaPonderadaDeudaTotal , tasaParetoDeudaTotal , codigoTransaccionDeudaTotal , pagoMinimoPendiente , comisionesPagoMinimoPendiente , interesesPagoMinimoPendiente , sumaComisionesInteresesPagoMinimoPendiente , capitalPagoMinimoPendiente , tasaPonderadaPagoMinimo , tasaParetoPagoMinimo , codigoTransaccionPagoMinimo , plazoMaximo , plazoRango , fechaRegistro , horaRegistro , fechaSaldos , fechaReg , tasaPolitica , year , month , activo
+        }
+    }
+}
+
+//Variables
+{"clave": "1#ec93f229ac2a8198e5ba39c5daf373", "claveOrdenamiento": "5a783d608dda9d0a731a9b288dc694#806"}
+
+//Json
+{
+    "query": "query ConsultarTdcTasasPortal($clave:String, $claveOrdenamiento:String, $limit:Int , $ascendente:Boolean , $lastEvaluatedKey:LastEvaluatedKeyTdcTasasPortal) {tdcTasasPortal(clave:$clave, claveOrdenamiento:$claveOrdenamiento, limit:$limit , ascendente:$ascendente , lastEvaluatedKey:$lastEvaluatedKey){totalCount,tdctasasportal{clave , claveOrdenamiento , ingestionYear , ingestionMonth , ingestionDay , costumerNumber , tipoIdCliente , idCliente , nombreCliente , tipoIdAmparador , idAmparador , nombreAmparador , organizacion , cuenta , estadoCuenta , blockCode1 , blockCode2 , diasMora , tarjeta , bin , ultimos4Numeros , franquicia , estadoTarjeta , blockCodeTarjeta , ciclo , fechaUltimoCorte , fechaLimiteDePago , fechaProximoCorte , diasProximoCorte , transacionesSuspendidas , montoTransacionesSuspendidas , deudaTotal , comisionesDeudaTotal , interesesDeudaTotal , sumaComisionesInteresesDeudaTotal , capitalDeudaTotal , tasaPonderadaDeudaTotal , tasaParetoDeudaTotal , codigoTransaccionDeudaTotal , pagoMinimoPendiente , comisionesPagoMinimoPendiente , interesesPagoMinimoPendiente , sumaComisionesInteresesPagoMinimoPendiente , capitalPagoMinimoPendiente , tasaPonderadaPagoMinimo , tasaParetoPagoMinimo , codigoTransaccionPagoMinimo , plazoMaximo , plazoRango , fechaRegistro , horaRegistro , fechaSaldos , fechaReg , tasaPolitica , year , month , activo}}}",
+    "variables": {
+        "clave": "1#ec93f229ac2a8198e5ba39c5daf373",
+        "claveOrdenamiento": "5a783d608dda9d0a731a9b288dc694#806"
+    }
+}
